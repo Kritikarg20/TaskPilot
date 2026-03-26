@@ -39,7 +39,7 @@ It provides tools for organizing work, tracking progress, and improving producti
 - Axios
 - React Router v6
 - Chart.js + react-chartjs-2
-- FullCalendar v6git 
+- FullCalendar v6 
 - dnd-kit (drag and drop)
 - date-fns
 - Lucide React icons
@@ -47,7 +47,7 @@ It provides tools for organizing work, tracking progress, and improving producti
 ---
 
 ### Preview
-![ Preview](C:\project\student-task-manager\frontend\src\preview.jpg)
-![ Preview](C:\project\student-task-manager\frontend\src\preview2.jpg)
+![Preview](./frontend/src/preview.jpg)
+![Preview](./frontend/src/preview2.jpg)
 ---
 
