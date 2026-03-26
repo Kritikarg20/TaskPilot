@@ -47,7 +47,6 @@ It provides tools for organizing work, tracking progress, and improving producti
 ---
 
 ### Preview
-![Preview](./frontend/src/preview.jpg)
-![Preview](./frontend/src/preview2.jpg)
+![Preview](https://raw.githubusercontent.com/Kritikarg20/TaskPilot/main/frontend/src/preview.jpg)
+![Preview](https://raw.githubusercontent.com/Kritikarg20/TaskPilot/main/frontend/src/preview2.jpg)
 ---
-
