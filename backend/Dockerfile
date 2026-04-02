@@ -1,8 +1,11 @@
-# Use Java 17
-FROM openjdk:17-jdk-slim
+# Use Maven to build
+FROM maven:3.9.6-eclipse-temurin-17 AS build
+WORKDIR /app
+COPY . .
+RUN mvn clean package -DskipTests
 
-# Copy jar file
-COPY target/*.jar app.jar
-
-# Run the app
-ENTRYPOINT ["java", "-jar", "/app.jar"]
+# Run app
+FROM eclipse-temurin:17-jdk
+WORKDIR /app
+COPY --from=build /app/target/*.jar app.jar
+CMD ["java", "-jar", "app.jar"]
